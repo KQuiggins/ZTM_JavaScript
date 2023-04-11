@@ -5,7 +5,8 @@ function bubbleSort(arr) {
     const length = arr.length;
 
     for(let i = 0; i < length; i++){
-        for(j = 0; j < length; j++){
+
+        for(let j = 0; j < length; j++){
             if( arr[j] > arr[j+1]){
                 //Swap numbers
                 let temp = arr[j];
