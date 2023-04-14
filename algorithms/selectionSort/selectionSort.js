@@ -20,3 +20,14 @@ function selectionSort(arr){
     }
     return arr;
 }
+
+const answer = selectionSort(numbers);
+console.log(answer);
+
+// Time Complexity of Selection Sort
+// Best Case: O(n^2)
+// Average Case: O(n^2)
+// Worst Case: O(n^2)
+
+// Space Complexity of Selection Sort
+// O(1)
