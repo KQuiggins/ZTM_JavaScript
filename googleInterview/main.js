@@ -1,3 +1,9 @@
+if(document.f1.txtName.value != ""){
+    console.log("hello")
+}
+  //console.log(s[1]);
+
+
 // Naive solution
 function hasPairWithSum(arr, sum){
     var len = arr.length;
@@ -23,5 +29,7 @@ function hasPairWithSum2(arr, sum){
     return false;
 }
 
-hasPairWithSum2([6, 4, 3, 2, 1, 7], 9)
+//hasPairWithSum2([6, 4, 3, 2, 1, 7], 9)
+
+
 
