@@ -1,5 +1,7 @@
 # Interview Questions On Sorting
 
+Sorting is an essential task in computer science and is used in various applications. In this article, we will discuss interview questions related to sorting and the best sorting algorithm for specific scenarios.
+
 ## 1 - Sort 10 schools around your house by distance
 
 Insertion sort - really fast for small data sets. It's easy to code and understand, and has a space complexity of O(1). It's also stable, which means that if two items have the same value, they will remain in the same order in the sorted list.
@@ -31,3 +33,5 @@ Quick sort - If you know the data is random, quick sort is usually the best choi
 ## 8 - You want to teach sorting for the first time
 
 Bubble sort - Bubble sort is a good choice for teaching sorting. It's easy to understand, and it's easy to implement. It's also a stable sort, so it doesn't change the order of items with the same value.
+
+In conclusion, choosing the best sorting algorithm depends on the type of data and the requirements of the application. Interviewers may ask questions related to sorting to test the candidate's knowledge and problem-solving skills.
