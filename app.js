@@ -1,9 +1,19 @@
-function multiply() {
-    const a = Number(prompt('Enter the first number'));
-    const b = Number(prompt('Enter the second number'));
-    return a * b;
-  }
-  
-  const result = multiply();
-  console.log(result);
-  
+const binarySearch = (needle, haystack) => {
+    let start = 0;
+    let end = haystack.length - 1;
+
+    while(start <= end) {
+      let middle = Math.floor((start + end) / 2);
+      if(haystack[middle] === needle) {
+        return middle;
+      }
+      if(haystack[middle] < needle) {
+        start = middle + 1;
+      }
+      if(haystack[middle] > needle) {
+        end = middle - 1;
+      }
+
+    }
+    return -1;
+};
